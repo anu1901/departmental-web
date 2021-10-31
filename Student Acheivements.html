@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ACHIEVEMENTS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    table{
+  border-collapse: collapse;
+  background-color: rgb(70, 69, 69);
+  color: white; 
+  width: 100%;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+tr:nth-child(even){
+  background-color: rgb(148, 150, 150);
+}
+td,th{
+  border: 2px solid rgb(250, 248, 248);
+  
+}
+th{
+  text-align: center;
+  background-color: rgb(20, 20, 20);
+  font-size: 20px;
+  padding: 10px;
+}
+td{
+  text-align: left;
+}
+  .center{   
+  width: 80%;
+  height: auto;
+  margin: 10px 150px 10px;
+
+   }
+   #b{
+    background-image: radial-gradient(rgb(24, 21, 21),rgb(133, 132, 132));
+        height: 100px;
+   }
+   section{ 
+    background-image:url(img/back1.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;  
+    background-size:cover;
+    background-position: center;
+   }
+   
+   h2{
+     font-size: 30px;
+     color: white;
+     text-align: center;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+  h3{
+    font-size: 25px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .gallery {
+  margin: 5px;
+  float: left;
+  width: 360px;
+  height: 300px;
+  padding: 20px;
+}
+.gallery img{
+  width:350px;
+  height:200px;
+}
+.desc {
+  margin: 10px 10px 10px;
+  font-size: 18px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.wrap{
+  width:630px;
+  margin: 10px 400px 10px;
+  height: 420px;
+  padding: 10px 10px 10px 10px;
+ box-sizing: border-box;
+ border: 4px solid rgb(247, 243, 243);
+ box-shadow: 5px 5px 5px 10px  rgb(63, 3, 3);
+ border-radius: 7px;
+}
+.wrapper{
+  margin: 10px 100px 10px;
+}
+p{
+  font-size: 20px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+   </style> 
+  
+     <script type="text/javascript">
+function myfin() {
+  alert("Welcome to Student Acheivements page!!!");
+}
+var myvar= setInterval(c1,300);
+function c1(){
+  var mypix = new Array("img/1.jpg","img/3.jpg","img/4.jpg","img/5.jpg","img/6.jpg","img/7.jpg","img/8.jpg")
+  var randomNum = Math.floor(Math.random()* mypix.length);
+  document.getElementById("myimage").src = mypix[randomNum];
+}
+function stop(){
+  clearInterval(myvar);
+}
+</script>
+   
+</head>
+<body style="background-color:rgb(245, 233, 233);" onload="myfin()">
+    <img  class="left"src ="img/kct main.png" alt="kumaraguru college logo"  >
+    <img class="right" src="img/eielogo.jpeg" alt="eie logo"  >
+    <h1>Department of <br> Electronics And Instrumentation Engineering</h1>
+  <br><br>
+  <ul class="b">
+    <li><a href="index.html">HOME</a></li>
+    <li><a href= "studentassociation.html">EIE DEPARTMENT ASSOCIATION</a></li>
+    <li><a href="placements.html" >PLACEMENTS</a></li>
+    <li><a href="Student Acheivements.html">ACHIEVEMENTS</a></li>
+    <li><a href="staff.html">STAFFS</a></li>  
+  </ul>  
+  <div id="b"> 
+    <br>
+  <h2 >STUDENT ACHIEVEMENTS</h2></div>
+  <section>  
+    <br>
+    <p style="margin: 10px 100px 10px;">Acheivement gives more confident to the young minds.It make them to taste the fruit of success.Once the fruit is tasted , it will induces our minds to taste many such fruits. 
+     Our department students are actively participated  in many hackathons, projects and research  activities.Due to their immense participation , we have recieved various awards in hackathons, conferences and in various competitions.</p>
+    <h3 style=" text-align:center;">VARIOUS AWARDS</h3> 
+    <div class="wrap">
+   <img src="img/8.jpg" id="myimage" onmouseover="c1()"  style="width:600px;height: 400px; ">
+  </div>
+   
+   <button onclick="stop()" style=" width:10%;position: absolute;top: 115%; font-size: 17px;
+   left: 70%;background-color: orangered;border-radius: 7px; color: cornsilk;padding: 10px 10px 10px; box-sizing: content-box;">
+    Stop Toggling</button>
+ <br>
+    <figure style="border: 2px solid white; width:610px; height:500px;  float:left; border-radius: 5px; " >
+      <img src="img/Startup-Masters-Program_2-05.jpg" alt="internship" style="margin: 10px 30px 10px 30px; width:550px;" >
+      <figcaption style="color: white;
+      text-shadow: 10px 2px 5px rgb(226, 197, 238); margin: 10px 150px 10px; font-size: 20px;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Internship in Raj Nivas, Puducherry</figcaption>
+     </figure>
+ <br><br><br><br><br><br><br><br><br>
+ <h3 style="margin: 10px 6px 10px 0px;"> INTERNSHIPS</h3>
+
+     <p style="margin: 10px 10px 10px;"> An internship is a period of work experience offered by an organization for a limited period of time.They are typically undertaken by students and graduates looking to gain relevant skills and experience in a particular field. Employers benefit from these placements because they often recruit employees from their best interns, who have known capabilities, thus saving time and money in the long run.
+      Internships are usually arranged by third-party organizations that recruit interns on behalf of industry groups.</p>
+      <br><br><br><br><br><br><br><br><br><br>
+      <div class="enter">
+ <h3 style="margin: 10px 500px 10px 600px;">STUDENT ENTREPRENEURS</h3>
+ <p style="margin: 10px 100px 10px;"> An entrepreneur is an individual who creates a new business, bearing most of the risks and enjoying most of the rewards. The process of setting up a business is known as entrepreneurship. 
+   The entrepreneur is commonly seen as an innovator, a source of new ideas, goods, services, and business/or procedures. Entrepreneurs play a key role in any economy, using the skills and initiative necessary to anticipate needs and bringing good new ideas to market. 
+   Entrepreneurship that proves to be successful in taking on the risks of creating a startup is rewarded with profits, fame, and continued growth opportunities. Entrepreneurship that fails results in losses and less prevalence in the markets for those involved.</p>
+  </div>
+   <div class="wrapper">
+  <div class="gallery">
+      <img src="img/enter1.jpg" alt="project 1" >
+    <div class="desc"> Top Student Entrepreneur – EO Global Entrepreneur Award</div>
+  </div>
+  <div class="gallery">
+    <img src="img/enter2.jpg" alt="project 1" >
+  <div class="desc">Original Start-up Ideas – Student Category: IFLA 2018, Kolkata</div>
+</div>
+<div class=" gallery">
+  <a  href="https://www.linkedin.com/posts/kct_entrepreneurs-forgeaccelerator-testedok-activity-6839526403906662400-Fpwh">
+    <img src="img/enter3.jpg" alt="entrepreneur" >
+  </a>
+  <div class="desc">#TestedOK is jointly funded by MeiTY,Govt of India under TIDE 4.0,DST,CIBI-FORGE,<br>#MHRD innovation cell,#Nidhi4covid</div>
+</div>
+ </div>
+    <h3 style="margin: 10px 610px 10px;">RESEARCH WORKS</h3> 
+   <div class="center">
+  <table>
+    <tr>
+      <th>S.No</th>
+      <th>Name of the students</th>
+      <th>Title of the events</th>
+      <th>State/National / International Level</th>
+      <th>Organised by</th>
+      <th>Position secured</th>
+    </tr>
+    <tr>
+      <td>01</td>
+      <td> Sharmila S</td> 
+      <td>Paper presentation Biomedical Instrumentation with health kit solution </td> 
+      <td>State</td> 
+      <td>Bannari Amman Institute of Technology</td> 
+      <td>Second Place</td> 
+    </tr>
+    <tr>
+      <td>02</td>
+      <td>Harsaavarthini P</td> 
+      <td>IFLA Original Business & Idea Competition 2018 </td> 
+      <td>National</td> 
+      <td>ITC Sonar hotel, Kolkata</td> 
+      <td>First place for the project on Sanitary napkin dispenser</td> 
+    </tr>
+    <tr>
+      <td>03</td>
+      <td>Subhashini J </td> 
+      <td>ISA Educational Foundation 2018 Scholarship Awards</td> 
+      <td>International</td> 
+      <td>ISA Bangalore</td> 
+      <td>Got 2000$ scholarship through ISA</td> 
+    </tr>
+    <tr>
+      <td>04</td>
+      <td> Muthu Periyaval G S</td> 
+      <td>IFLA Original Business & Idea Competition 2018</td> 
+      <td>National</td> 
+      <td>ITC Sonar hotel, Kolkata</td> 
+      <td> First place for the project on Sanitary napkin dispenser</td> 
+    </tr>
+    <tr>
+      <td>05</td>
+      <td>Aditya Gopal R</td> 
+      <td>GENESIS 2K18</td> 
+      <td>State</td> 
+      <td>Sri Ramakrishna College of Engineering</td> 
+      <td>Second Place</td> 
+    </tr>
+    <tr>
+      <td>06</td>
+      <td> Hemamalini S</td> 
+      <td> National Symposium on Instrumentation NSI-42 </td> 
+      <td>National</td> 
+      <td>Instrument Society of India (ISOI),Indian Institute of Science(ISII)Bangalore</td> 
+      <td>Best Paper Award</td> 
+    </tr>
+    <tr>
+      <td>08</td>
+      <td> KOUSALYA.S</td> 
+      <td> National Symposium on Instrumentation NSI-42</td> 
+      <td>National</td> 
+      <td>Instrument Society of India (ISOI),Indian Institute of Science(ISII)Bangalore</td> 
+      <td>Best Paper Award</td> 
+    </tr>
+  </table>
+</div>
+  <br><hr>
+
+  </section>
+  <div class="d">
+    <br><br>
+      <q>It's time  to make the great things happen</q>
+    <br><br><br>
+    <address >Contact us on&nbsp;
+     <a href="https://www.linkedin.com/company/eie-kct" class="fa fa-linkedin"></a> 
+       &nbsp; &nbsp;<a href="https://instagram.com/eie_kct?utm_medium=copy_link" class="fa fa-instagram"></a></address>
+   <br><br> </div>
+</body>
+</html>
